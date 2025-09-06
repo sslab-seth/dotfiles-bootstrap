@@ -17,7 +17,7 @@ done
 
 echo "All packages have been installed."
 
-echo 'eval "$(direnv hook bash)"' >> ~./bashrc
+echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
 
-source ~./bashrc
+source ~/.bashrc
 
