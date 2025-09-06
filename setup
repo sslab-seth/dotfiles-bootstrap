@@ -5,7 +5,7 @@ echo "Hello World" > /tmp/hello
 
 packages=(
   kubectl
-  fluxcd/tab/flux
+  fluxcd/tap/flux
   k9s
   direnv
 )
