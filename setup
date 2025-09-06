@@ -3,3 +3,16 @@
 echo "Hello World" > /tmp/hello
 
 
+packages=(
+  kubectl
+  fluxcd/tab/flux
+  k9s
+  direnv
+)
+
+for package in "${packages[@]}"; do
+  echo "Installing $package..."
+  /home/linuxbrew/.linuxbrew/bin/brew install "$package"
+done
+
+echo "All packages have been installed."
