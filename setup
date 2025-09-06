@@ -16,3 +16,8 @@ for package in "${packages[@]}"; do
 done
 
 echo "All packages have been installed."
+
+echo 'eval "$(direnv hook bash)"' >> ~./bashrc
+
+source ~./bashrc
+
